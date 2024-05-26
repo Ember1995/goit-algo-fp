@@ -57,11 +57,13 @@ def build_heap(arr):
 
     return nodes[0]
 
-# Введення масиву для побудови бінарної купи
-heap_array = [0, 4, 5, 10, 1, 3]
+# Тестування
+if __name__ == "__main__":
+    # Введення масиву для побудови бінарної купи
+    heap_array = [0, 4, 5, 10, 1, 3]
 
-# Створення мін-купу
-min_heap_root = build_min_heap(heap_array)
+    # Створення мін-купу
+    min_heap_root = build_min_heap(heap_array)
 
-# Відображення мін-купу
-draw_tree(min_heap_root)
+    # Відображення мін-купу
+    draw_tree(min_heap_root)
